@@ -6,10 +6,7 @@
             "type": "cppvsdbg",
             "request": "launch",
             "program": "${workspaceFolder}/build/HelloWorld.exe",
-
-            "stopAtEntry": true,
-            "cwd": "${fileDirname}"
-        
+            "stopAtEntry": true
         },
         {
             "name" : "Linux Launch",
@@ -17,7 +14,6 @@
             "request": "launch",
             "program": "${workspaceFolder}/build/HelloWorld",
             "stopAtEntry": true,
-            "cwd": "${fileDirname}",
             "externalConsole": false,
             "MIMode": "gdb",
             "setupCommands": [
