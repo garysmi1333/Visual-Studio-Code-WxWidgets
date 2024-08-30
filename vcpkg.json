@@ -1,0 +1,10 @@
+{
+  "dependencies": [
+    {
+      "name": "wxwidgets",
+      "version>=": "3.2.5"
+    }
+  ],
+  "builtin-baseline": "509f71e53f45e46c13fa7935d2f6a45803580c07"
+  
+}
